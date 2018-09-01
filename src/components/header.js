@@ -11,12 +11,11 @@ const Header = props => {
 
 const styles = StyleSheet.create({
   View: {
-    flex: 1,
-    maxHeight: 100,
+    height: 60,
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'column',
-    backgroundColor: '#247BA0',
+    backgroundColor: '#f8f8f8',
     elevation: 20,
     borderRadius: 20,
     shadowColor: '#000',
@@ -25,8 +24,7 @@ const styles = StyleSheet.create({
     position: 'relative',
   },
   Text: {
-    color: '#F3FFBD',
-    fontSize: 30,
+    fontSize: 20,
     fontWeight: 'bold'
   }
 });
